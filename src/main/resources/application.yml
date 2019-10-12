@@ -1,0 +1,11 @@
+server:
+  port: 8000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8100/eureka
+    fetch-registry: true
+    register-with-eureka: true
+spring:
+  application:
+    name: member-service
